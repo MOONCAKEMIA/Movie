@@ -1,0 +1,110 @@
+
+
+td {
+    padding: 10px;
+}
+
+.CC {
+    width: 98%;
+}
+
+/*Below is for the LEFT section*/
+.LeftH {
+    text-align: center;
+}
+
+.h4 {
+    text-align: center;
+    color: #022702;
+}
+
+/* Below are the children still in the LEFT section */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .top-row,
+  .middle-row,
+  .bottom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .middle-row img {
+    margin: 0 5px;
+    max-width: 30%;
+  }
+  
+  .top-row img:first-child,
+  .top-row img:last-child,
+  .bottom-row img:first-child,
+  .bottom-row img:last-child {
+    margin: 0 5px;
+    max-width: 30%;
+  }
+
+
+
+/* Below is for the CENTER section */
+.poster {
+    width: 98%;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; 
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+
+/* Below is for the RIGHT section */
+.RightH {
+    text-align: center;
+}
+
+.CAST {
+    text-align: center;
+    color:#022702
+}
+        /* for the premiere pictures */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, auto);
+    grid-gap: 10px;
+    max-width: 100%;
+    height: 100%;
+  }
+  
+  .grid-item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .caption {
+    position: absolute;
+    width: 100%;
+    color: #0000;
+    padding: 5px;
+    text-align: left;
+  }
