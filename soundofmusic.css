@@ -69,6 +69,9 @@ td {
     height: auto;
   }
 
+ .LIST:hover {
+    font-size: larger;
+  }
 
 /* Below is for the RIGHT section */
 .RightH {
